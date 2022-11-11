@@ -1,0 +1,29 @@
+.main--container {
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.main--container__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main--container__buttons button:first-child {
+  margin-right: 20px;
+  background-color: green;
+}
+
+.main--container__buttons button:last-child {
+  background-color: red;
+}
+.main--container__buttons button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
